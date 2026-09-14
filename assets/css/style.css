@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    /* list-style-type: none; */
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Helvetica, sans-serif;
+    src: url(/assets/fonts/helvetica/Helvetica-Bold.ttf);
+    font-weight: 700;
+}
+
+.helvetica-bold {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Helvetica, sans-serif;
+    src: url(/assets/fonts/helvetica/helvetica-light-587ebe5a59211.ttf);
+    font-weight: 400;
+}
+
+.helvetica-light {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+.nav-btn:hover .btn-svg{
+    fill: white;
+}
+
