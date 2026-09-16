@@ -31,3 +31,38 @@
     fill: white;
 }
 
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* Moves exactly halfway to reveal the duplicate track */
+  }
+}
+
+
+    .swiper-slide,
+    .swiper-slide-next {
+      max-width: 364px;
+
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-navigation-icon {
+      display: none;
+    }
+
+    .swiper-slide {}
+
+    .swiper-slide-active {
+      max-width: 364px;
+    }
+
+    .swiper-button-prev {
+      left: unset;
+    }
+

@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .marquee-container {
+  overflow: hidden; /* Hides the items scrolling off-screen */
+  width: 100%;
+  background: #111;
+  color: #fff;
+  padding: 15px 0;
+  display: flex;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 15s linear infinite; /* Adjust time to change speed */
+}
+
+/* Pause the scrolling when a user hovers over it */
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.marquee-content {
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%; /* Ensures both halves occupy equal space */
+  gap: 40px; /* Space between your items */
+  padding-right: 40px; /* Matches the gap to keep the spacing perfect */
+}
+
+.marquee-content span {
+  font-family: sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* The magic that keeps it continuous */
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* Moves exactly halfway to reveal the duplicate track */
+  }
+}
+    </style>
+</head>
+<body>
+
+
+<div class="marquee-container">
+  <div class="marquee-track">
+
+    <div class="marquee-content">
+      <span>🔥 Trending News</span>
+      <span>⚡ Flash Sale 50% Off</span>
+      <span>🚀 New Release</span>
+      <span>✨ Limited Edition</span>
+    </div>
+    <div class="marquee-content" aria-hidden="true">
+      <span>🔥 Trending News</span>
+      <span>⚡ Flash Sale 50% Off</span>
+      <span>🚀 New Release</span>
+      <span>✨ Limited Edition</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html> -->
